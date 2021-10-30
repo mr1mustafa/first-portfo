@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+h1 {
+  color: brown;
+}
+.oranage-colour {
+  color: darksalmon;
+}
+.nickname {
+  color: orange;
+}
+.fixible-container {
+  display: flex;
+}
+.HALF-WIDTH {
+  width: 50%;
+  padding: 2%;
+  font-weight: bold;
+}
+.HALF-WIDTH-img {
+  width: 100%;
+}
+.hire-me-btn {
+  text-decoration: none;
+  background-image: -o-repeating-linear-gradien(rgb(49, 9, 9), skyblue);
+  padding: 10px 40px;
+  color: chocolate;
+  border-radius: 5px;
+  font-weight: 800px;
+}
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.experience-area {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px darkgray;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.Experince {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  padding: 10px;
+}
+#baby {
+  border-left: solid 10p rgb(109, 40, 9);
+}
+#stack {
+  border-left: solid 10px rgb(160, 47, 13);
+}
