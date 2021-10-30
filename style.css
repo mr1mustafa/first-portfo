@@ -24,7 +24,7 @@ h1 {
 }
 .hire-me-btn {
   text-decoration: none;
-  background-image: -o-repeating-linear-gradien(rgb(49, 9, 9), skyblue);
+  background-image: linear-gradient(orange red);
   padding: 10px 40px;
   color: chocolate;
   border-radius: 5px;
@@ -45,7 +45,7 @@ h1 {
   margin-right: 5%;
   padding-left: 10px;
   border-radius: 5px;
-  box-shadow: 10px 10px 10px darkgray;
+  box-shadow: 10px 10px 40px darkgray;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
 }
@@ -54,10 +54,18 @@ h1 {
   background-repeat: no-repeat;
   background-position-y: bottom;
   padding: 10px;
+  font-weight: bold;
 }
 #baby {
-  border-left: solid 10p rgb(109, 40, 9);
+  border-left: 10px solid;
+  border-image: linear-gradient(skyblue slateblue);
+  border-image-slice: 1;
 }
 #stack {
-  border-left: solid 10px rgb(160, 47, 13);
+  border-left: 10px solid;
+  border-image: linear-gradient(cyan blue);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
